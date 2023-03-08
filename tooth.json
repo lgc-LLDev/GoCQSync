@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "tooth": "github.com/lgc-LLSEDev/GoCQSync",
+  "version": "0.4.3",
+  "dependencies": {},
+  "information": {
+    "name": "GoCQSync",
+    "description": "[停更] 一个依赖 GoCQHTTP 的轻量群服互通插件",
+    "author": "student_2333 <lgc2333@126.com>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/lgc-LLSEDev/GoCQSync"
+  },
+  "placement": [
+    {
+      "source": "GoCQSync.lxl.js",
+      "destination": "plugins/GoCQSync.js"
+    }
+  ],
+  "possession": ["plugins/GoCQSync/"]
+}
