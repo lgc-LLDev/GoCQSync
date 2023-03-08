@@ -4,7 +4,7 @@
 
 **目前已不推荐使用本插件，请移步 YoyoRobot、QBotForLiteLoader 等插件**
 
-也可以来看看 [LLSEKoishi](../LLSEKoishi)
+也可以来看看 [LLSEKoishi](https://github.com/lgc-LLSEDev/LLSEKoishi)
 
 一个依赖 [GoCQHTTP](https://github.com/Mrs4s/go-cqhttp) 的群服互通插件
 
@@ -74,7 +74,7 @@
          ![示例](readme/124.png)  
          修改后服务器控制台将会显示机器人自身发出的消息  
          ![效果](readme/1242.png)
-2. 按照[插件下载安装教程](/tutorial.md)安装好插件
+2. 将 `GoCQSync.lxl.js` 扔进 BDS 插件目录
 3. 按照[配置文件](#配置文件)一节修改插件配置
 4. 配置完成，Enjoy！
 
