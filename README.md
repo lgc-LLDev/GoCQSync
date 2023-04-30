@@ -30,8 +30,8 @@
 <details>
   <summary>点击展开</summary>
 
-![群聊](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/4b58ead66f2bfb75.png)
-![服务器内](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/-e0426ee8a4b2559.jpg)
+![群聊](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/4b58ead66f2bfb75.png)
+![服务器内](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/-e0426ee8a4b2559.jpg)
 
 </details>
 
@@ -46,12 +46,12 @@
       （例：64 位 amd 架构处理器的 windows 系统就下载 `go-cqhttp_windows_amd64.zip`）
       1. 启动 GoCQ
       2. 当让你选择你所需要的通信方式时，请选择正向 ws，其他按需选择  
-         ![示例](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/112.png)
+         ![示例](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/112.png)
       3. 修改`config.yml`中的账号密码为机器人 QQ 的  
-         ![示例](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/113.png)
+         ![示例](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/113.png)
    2. 修改`config.yml`配置文件
       1. 如果你之前没选过正向 ws 的连接方式，直接在配置文件`servers`项后面加上这样一段即可  
-         ![示例](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/121.png)  
+         ![示例](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/121.png)  
          下面是配置内容，复制粘贴即可，注意左侧缩进（建议使用 vscode，粘贴时可以自动控制缩进）
          ```yml
          - ws:
@@ -69,11 +69,11 @@
          监听 IP 地址最好不要设为`0.0.0.0`，因为插件连接时无法使用`access token（访问密钥）`（llse 无法发出带请求头的 ws 连接，且貌似 GoCQ 不支持 ws 连接时 get 参数提供的 access token），这样将会允许外网连接你的 GoCQ（防火墙/安全组规则允许的情况下）  
          当监听 IP 地址设置为`127.0.0.1`时将只允许内网连接，可以保证安全性
       3. （可选）将`message`项下的`post-format`修改为`array`（以前插件正常处理消息需要用到，现在不用了）  
-         ![示例](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/123.png)
+         ![示例](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/123.png)
       4. （可选）将`message`项下的`report-self-message`修改为`true`
-         ![示例](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/124.png)  
+         ![示例](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/124.png)  
          修改后服务器控制台将会显示机器人自身发出的消息  
-         ![效果](https://media.githubusercontent.com/media/lgc-LLSEDev/readme/main/GoCQSync/1242.png)
+         ![效果](https://raw.githubusercontent.com/lgc-LLSEDev/readme/main/GoCQSync/1242.png)
 2. 将 `GoCQSync.lxl.js` 扔进 BDS 插件目录
 3. 按照[配置文件](#配置文件)一节修改插件配置
 4. 配置完成，Enjoy！
